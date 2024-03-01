@@ -30,6 +30,7 @@ div{
 ul{
 	list-style: none;
 	margin-bottom: 0px;
+
 }
 
 li{
@@ -41,7 +42,7 @@ p{
 	font-size: 14px;
 	line-height: 1.7;
 	font-weight: 500;
-	color: ##737373;
+	color: #737373;
 	-webkit-font-smoothing: antialiased; /*sombreamento da fonte*/
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -50,8 +51,13 @@ p{
 p a{
 	display: inline;
 	position: relative;
-	color: inherit;
 	border-bottom: solid 2px #fde0db;
+
+}
+
+a{
+ text-decoration: none;
+ font-style: normal;
 }
 
 h1{

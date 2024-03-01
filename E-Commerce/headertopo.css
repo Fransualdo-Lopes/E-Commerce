@@ -2,15 +2,24 @@
 .header-topo-container{
     display: flex;
     height: 46px;
-    padding: 9px 0px 3px 0px;
-    justify-content: space-evenly;
-    width: 100%;
+    padding: 9px 0px 3px 0px; 
+    justify-content: space-between; 
+    width: 100vw;
     align-items: center;
-    background-color: #252B42;;
+    background-color: #252B42;
+    margin-right: 0;
+    
 }
+
 
 .content-header{
     display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    margin-right: 0;    
+}
+.content-header :last-child{
+    margin-right: 0;
 }
 
 ul{
