@@ -1,7 +1,8 @@
 *{
-    box-sizing: border box;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
 body{
@@ -10,11 +11,13 @@ body{
 	line-height: 23px;
 	font-weight: 400; /*fonte normal*/
 	background: #FFFFFF;
+	display: flex;
+    justify-content: center;
 }
 
 
 h6{
-    color: fffff;
+    color: #FFFFFF;
 }
 
 

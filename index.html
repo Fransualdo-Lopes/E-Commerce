@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="headertopo.css">
   <link rel="stylesheet" href="global.css">
   <link rel="stylesheet" href="menu-main.css">
-  <title>my page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <title>My page</title>
 </head>
 
 <body>
@@ -118,6 +120,28 @@
       </div>
     </div>
   </header>
+  <div>
+    
+    <main>SLIDER</main>
+    <!-- Slider main container -->
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="./images/shop-hero-1-product-slide-1.svg" alt="mulher nas compras"></div>
+            <div class="swiper-slide"><img src="./images/shop-hero-1-product-slide-1.svg" alt="mulher nas compras2"></div>
+            <div class="swiper-slide"><img src="./images/shop-hero-1-product-slide-1.svg" alt="mulher nas compras"></div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>script.js</script>
 </body>
 
 </html>
