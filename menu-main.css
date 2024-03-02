@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .content-navbar_ligth{
   display: flex;  
   width: 100%;
@@ -59,67 +58,4 @@
 
 
 
-=======
-.content-navbar_ligth{
-  display: flex;  
-  width: 100%;
-  height: 58px;
-  padding: 0px 17px 0px 38px;
-  align-items: flex-start;
-  gap: 40px;
-  align-items: center;
-   
-}
-
-.colapse-navbar{
-  display: flex;
-  height: 58px; 
-  padding: 2px 0px;
-  
-}
-.colapse-navbar ul{
-  display: flex;
-  gap: 25px;
-  align-items: center;
-  
-}
-.nav-icons{
-  display: flex;
-  gap: 18px;
-  justify-content: center;
-  align-items: center;
-}
-
-.main-container{
-  display: flex;
-
-}
-
-.content-nav-link a{
-  display: flex;
-  justify-content: space-between;
-}
-
-.colapse-navbar-wrapper{ 
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: Montserrat;  
-}
-
-.logo{ 
-  width: 187px;
-}
-
-#login{
-  display: flex;
-  gap: 8px;
-}
-
-
-
-
-
->>>>>>> 031841bb1ca62d3fc44c782e9185639a109b6272
   
