@@ -39,12 +39,9 @@ ul li img{
 
 h6 {    
     color: var(--light-text-color, #FFF);
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 20px; /* 142.857% */
-    letter-spacing: 0.2px;
 }
 
 

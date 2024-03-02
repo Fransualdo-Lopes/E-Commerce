@@ -1,3 +1,13 @@
+h3 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.logo h3{ 
+  color:#252B42;
+  
+}
+
 .content-navbar_ligth{
   display: flex;  
   width: 100%;
@@ -9,7 +19,7 @@
    
 }
 
-.colapse-navbar{
+.colapse-navbar{  
   display: flex;
   height: 58px; 
   padding: 2px 0px;
@@ -55,7 +65,14 @@
   gap: 8px;
 }
 
+h3 {
+  font-size: 24px;
+  font-weight: 800;
+}
 
+.logo h3{ 
+  color:#252B42;
+}
 
 
 

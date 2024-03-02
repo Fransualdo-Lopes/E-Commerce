@@ -18,22 +18,8 @@ ul {
 }
 
 
-li {
-    display: inline;
-}
-
-
-.colapse-navbar li a {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    line-height: 1.7;
-    font-weight: 500;
-    color: #737373;
-    -webkit-font-smoothing: antialiased;
-    /*sombreamento da fonte*/
-    -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-    background-color: aqua;
+li{
+	display: inline;
 }
 
 main {
