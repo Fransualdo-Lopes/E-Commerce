@@ -1,79 +1,80 @@
-h3 {
+.main-container {
+  display: flex;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.logo {
+  width: 187px;
+}
+
+.logo h3 {
+  color: #252B42;
   font-size: 24px;
   font-weight: 800;
 }
 
-.logo h3{ 
-  color:#252B42;
-  
-}
-
-.content-navbar_ligth{
-  display: flex;  
+.content-navbar_ligth {
+  display: flex;
   width: 100%;
   height: 58px;
   padding: 0px 17px 0px 38px;
   align-items: flex-start;
   gap: 40px;
   align-items: center;
-   
+
 }
 
-.colapse-navbar{  
+.colapse-navbar {
   display: flex;
-  height: 58px; 
+  height: 58px;
   padding: 2px 0px;
-  
+
 }
-.colapse-navbar ul{
+
+.colapse-navbar ul {
   display: flex;
   gap: 25px;
   align-items: center;
-  
+
 }
-.nav-icons{
+
+.nav-icons {
   display: flex;
   gap: 18px;
   justify-content: center;
   align-items: center;
 }
 
-.main-container{
+#login {
   display: flex;
-
+  gap: 8px;
+  color: #23A6F0;
+  font-family: Montserrat;
 }
 
-.content-nav-link a{
+#shop {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #252B42; 
+  border: none; 
+  padding: 8px;
+}
+
+.content-nav-link {
   display: flex;
   justify-content: space-between;
+  text-decoration: none;
+  color: #737373;
+  font-style: normal;
+  font-weight: 400;
 }
 
-.colapse-navbar-wrapper{ 
+.colapse-navbar-wrapper {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: Montserrat;  
+  font-family: Montserrat;
 }
-
-.logo{ 
-  width: 187px;
-}
-
-#login{
-  display: flex;
-  gap: 8px;
-}
-
-h3 {
-  font-size: 24px;
-  font-weight: 800;
-}
-
-.logo h3{ 
-  color:#252B42;
-}
-
-
-
-  
