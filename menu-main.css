@@ -48,9 +48,15 @@
 
 #login {
   display: flex;
-  gap: 8px;
   color: #23A6F0;
-  font-family: Montserrat;
+  gap: 8px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+#login a{
+  
+  
 }
 
 #shop {
