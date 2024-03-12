@@ -14,3 +14,15 @@ var swiper = new Swiper(".swiper", {
   },
   keyboard: true,
 });
+
+// lupa do menu
+
+function toggleSearch() {
+  var searchInput = document.getElementById("searchInput");
+  if (searchInput.style.display === "none") {
+    searchInput.style.display = "inline-block";
+  } else {
+    searchInput.style.display = "none";
+  }
+}
+

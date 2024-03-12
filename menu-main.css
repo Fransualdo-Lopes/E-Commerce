@@ -46,6 +46,15 @@
   align-items: center;
 }
 
+#shop {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #252B42; 
+  border: none; 
+  padding: 8px;
+}
+
 #login {
   display: flex;
   color: #23A6F0;
@@ -54,13 +63,8 @@
   text-decoration: none;
 }
 
-#shop {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  color: #252B42; 
-  border: none; 
-  padding: 8px;
+.c-header__action-link {
+  cursor: pointer;
 }
 
 .content-nav-link {
