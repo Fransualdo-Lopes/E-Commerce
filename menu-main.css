@@ -83,3 +83,20 @@
   align-items: center;
   font-family: Montserrat;
 }
+
+.colapse-navbar ul li:hover {
+  background-color: #f0f0f0; 
+}
+
+.colapse-navbar ul li:hover a {
+  color: #252B42; 
+}
+
+.nav-icons a:hover {
+  opacity: 0.7; /* Reduzir a opacidade dos ícones ao passar o mouse */
+}
+
+.nav-icons a:hover p {
+  color: #252B42; 
+}
+
