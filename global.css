@@ -17,9 +17,15 @@ body {
 ul {
     list-style: none;
     margin-bottom: 0px;
-
+    display: flex;
+    align-items: center;
 }
 
 li {
     display: inline;
+    align-items: center;
+}
+
+ul li{
+    display: flex;
 }

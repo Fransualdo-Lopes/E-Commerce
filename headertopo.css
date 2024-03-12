@@ -30,22 +30,14 @@
     margin-right: 0;    
 }
 
-ul{
-    display: flex;
-}
-
-ul li{
-    display: flex;
-}
-
 ul li img{
     padding: 4px;
 }
 
 .btn-s20 {
     display: flex;
-    padding: 10px;
     align-items: center;
+    padding: 10px;
     gap: 5px;
 }
 
@@ -54,6 +46,7 @@ h6 {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-style: normal;
+    align-items: center;
 }
 
 
